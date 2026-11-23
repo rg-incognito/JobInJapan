@@ -1,0 +1,140 @@
+%% ==========================================================================
+%% MASTER RESUME - Rohit Gande
+%% Same visual style as the original (Jake-style), but ATS-safe:
+%%   * no icon fonts (they extracted as garbage glyphs: "#", "ï")
+%%   * profile links written out as real URLs (ATS can't read hidden hyperlinks)
+%%   * single column, standard section names, "Mon YYYY" dates
+%% Tailored copies are generated per job in applications/<job_id>/resume.tex.
+%% RULE: tailoring may reword, reorder and surface skills from skills_bank.json,
+%%       but must NEVER invent experience, employers, numbers or skills.
+%% ==========================================================================
+\documentclass[a4paper,10pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+% Latin Modern (same look as original) with ligatures OFF so "ff"/"fi" extract as plain letters for ATS parsers
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf, ItalicFont=lmroman10-italic.otf,
+  BoldItalicFont=lmroman10-bolditalic.otf, SmallCapsFont=lmromancaps10-regular.otf, Ligatures={NoCommon}, Kerning=Off]
+
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.35in}
+\urlstyle{same}
+\raggedbottom\raggedright
+\setlength{\tabcolsep}{0in}
+\pagestyle{empty}
+
+\titlespacing*{\section}{0pt}{9pt}{8pt}
+\titleformat{\section}{\vspace{-5pt}\large\bfseries}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% ---------- helpers ----------
+\newcommand{\entry}[4]{\item[]\begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \textbf{#1} & \textbf{#2} \\ \textit{#3} & \textit{#4} \\ \end{tabular*}\vspace{-3pt}}
+\newcommand{\project}[2]{\item[]\begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  #1 & \textbf{#2} \\ \end{tabular*}\vspace{-3pt}}
+\newcommand{\bullets}{\begin{itemize}[leftmargin=0.2in,itemsep=1pt,topsep=2pt,label={\textbullet}]}
+\newcommand{\bulletsend}{\end{itemize}\vspace{-3pt}}
+\newcommand{\listbegin}{\begin{itemize}[leftmargin=0.0in,label={}]}
+\newcommand{\listend}{\end{itemize}}
+
+% ---------- personal details ----------
+\newcommand{\githubuser}{rg-incognito}
+\newcommand{\leetcodeuser}{rg-incognito}
+
+\begin{document}
+
+%% ---------------- HEADER ----------------
+\begin{center}
+  {\Huge \scshape Rohit Gande} \\ \vspace{2pt}
+  \small Software Engineer \;|\; Pune, India \;|\; Open to relocation (visa sponsorship required) \\ \vspace{2pt}
+  \small +91 9527513399 \;|\; \href{mailto:rohitgande.work@gmail.com}{rohitgande.work@gmail.com} \;|\;
+  \href{https://linkedin.com/in/rohit-gande}{linkedin.com/in/rohit-gande} \;|\;
+  \href{https://github.com/\githubuser}{github.com/\githubuser}
+\end{center}
+
+%% ---------------- SUMMARY ----------------
+\section{Summary}
+\small{Software Engineer with 3+ years of experience building real-time data pipelines, gRPC/REST microservices and CI/CD for
+automotive platforms in Java, Spring Boot and Python, plus AI-agent developer tooling with Claude Code (plugins and skills) and LLMs.}
+
+%% ---------------- EXPERIENCE ----------------
+\section{Experience}
+\listbegin
+  \entry{Sincro, a DealerOn company}{Jan 2026 -- Present}{Software Engineer -- Inventory Team (Automotive)}{Pune, India}
+  \bullets
+    \item Process \textbf{real-time inventory and incentive data updates} for automotive dealer websites, keeping the vehicle pricing box (MSRP, internet price, finance options and conditional offers such as military or senior discounts) accurate and in sync.
+    \item Wrote \textbf{data parsers} for multiple vehicle-data vendors, normalizing heterogeneous vendor feeds into the inventory pipeline.
+    \item Built the \textbf{CI/CD} pipeline on \textbf{Bamboo} and \textbf{Bitbucket} from build through deployment to UAT and production, and implemented configuration property injection from \textbf{Consul} into the server.
+    \item Built a \textbf{Maven version-upgrade tool} that resolves dependencies and upgrades multiple projects in one run while pinning selected projects to older versions.
+    \item Built a \textbf{Claude Code} UI-navigation plugin that lets Claude drive the browser to run \textbf{end-to-end tests}, plus Claude skills that provide context on the incentives build pipeline.
+  \bulletsend
+
+  \entry{Divisions Maintenance Group}{Jul 2025 -- Dec 2025}{Software Development Engineer II (SDE 2)}{Bengaluru, India}
+  \bullets
+    \item Implemented \textbf{gRPC} inter-service communication with type-safe \textbf{Protocol Buffers} service contracts across distributed systems, reducing latency between microservices by \textbf{30\%} compared to REST APIs.
+    \item Built a \textbf{Claude Code} skill that takes a bug description from the incident-management tool and investigates the locally cloned repository to locate the likely root cause, accelerating bug triage.
+    \item Contributed unit and integration test coverage for gRPC modules, improving code quality and deployment confidence.
+  \bulletsend
+
+  \entry{Sincro (now a DealerOn company)}{Sep 2023 -- Apr 2025}{Software Engineer}{Pune, India}
+  \bullets
+    \item Engineered a flexible ad framework using expansion tags that inserted offers and content based on user behavior, boosting user engagement by \textbf{30\%} and reducing manual update time by \textbf{40\%}.
+    \item Integrated the Bing Automotive Inventory Ads RESTful API to support feed-based ad campaigns, improving campaign scalability and cutting ad setup time by \textbf{50\%} through end-to-end campaign automation.
+    \item Built real-time monitoring dashboards to analyze ad performance across platforms, enabling proactive campaign adjustments.
+  \bulletsend
+
+  \entry{Indian Institute of Tropical Meteorology}{Jun 2022 -- Dec 2022}{Machine Learning Project Intern}{Pune, India}
+  \bullets
+    \item Built a YOLOv4 vehicle-detection model for Indian vehicles (3,000+ annotated images, \textbf{15\%} higher accuracy) and optimized it from \textbf{22} to \textbf{60} FPS, reducing latency by \textbf{25\%} for real-time processing.
+  \bulletsend
+\listend
+
+%% ---------------- PROJECTS ----------------
+\section{Projects}
+\listbegin
+  \project{\textbf{ClipForge -- AI Video Editor SaaS} $|$ \emph{Spring Boot, Python, Next.js, PostgreSQL, Redis, Docker}}{May 2026 -- Jun 2026}
+  \bullets
+    \item Built a full-stack SaaS that turns long videos into vertical shorts: Spring Boot REST API, PostgreSQL, Redis job queue, async webhooks and a Next.js/TypeScript UI on Docker Compose.
+    \item Built Python AI workers for Whisper transcription, Gemini LLM viral-moment detection (multi-model fallback), MediaPipe face-tracking 9:16 reframing and FFmpeg captions.
+  \bulletsend
+
+  \project{\textbf{Website Migration Automation (Sincro to DealerOn)} $|$ \emph{Spring Boot, Angular, Python, ChatGPT API}}{Jan 2025 -- Apr 2025}
+  \bullets
+    \item Built scraping and migration microservices with LLM-based layout analysis, migrating \textbf{10+} websites without data loss and cutting manual effort by \textbf{75\%+}.
+    \item Added a feature that copies a dealer site's data and components into the destination DealerOn template, replacing manual re-entry by operations teams during vendor migration.
+  \bulletsend
+\listend
+
+%% ---------------- SKILLS ----------------
+\section{Technical Skills}
+\listbegin
+  \item[] \small{
+    \textbf{Languages}: Java, Python, JavaScript, TypeScript, Kotlin, Go, SQL \\
+    \textbf{Backend}: Spring Boot, Node.js, RESTful APIs, gRPC, Protocol Buffers, Microservices, Distributed Systems, Hibernate/JPA, Maven, Kafka, FastAPI, Flask \\
+    \textbf{Testing}: JUnit, Playwright, Selenium, Unit, Integration \& End-to-End (E2E) Testing \\
+    \textbf{Frontend}: React, Angular \\
+    \textbf{Databases}: PostgreSQL, MySQL, MongoDB, Redis, RDBMS, NoSQL \\
+    \textbf{Cloud \& DevOps}: AWS (EC2, ECR, S3, CloudWatch, Bedrock), Docker, Kubernetes, GCP, Azure, Linux, CI/CD (Bamboo, Bitbucket), Terraform, Consul \\
+    \textbf{AI / ML}: LLMs, AI Agents, Claude Code (plugins, skills), Amazon Bedrock, CrewAI, LangChain, OpenAI API, Prompt Engineering, RAG, Computer Vision (YOLOv4), Web Scraping
+  }
+\listend
+
+%% ---------------- EDUCATION ----------------
+\section{Education}
+\listbegin
+  \entry{G. H. Raisoni College of Engineering and Management, Pune}{Aug 2019 -- Jun 2023}{Bachelor of Technology in Computer Engineering}{Maharashtra, India}
+\listend
+
+%% ---------------- ACHIEVEMENTS ----------------
+\section{Achievements \& Leadership}
+\bullets
+  \item GDSC GHRCEM Technical Lead (2022--23), led 23 and mentored 550+; top 15 in India app challenge; 1,000+ DSA problems (leetcode.com/u/\leetcodeuser).
+\bulletsend
+
+\end{document}

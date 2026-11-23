@@ -1,0 +1,143 @@
+{
+ "_note": "Answers Rohit typed or picked himself on application forms (learned by JobFill). Edit or delete entries freely.",
+ "answers": {
+  "location country you're currently residing in": {
+   "q": "Location Country you're currently residing in",
+   "a": "India",
+   "kind": "combo",
+   "seen": 10,
+   "first": "2026-11-02",
+   "last": "2026-11-03",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-elevenlabs-6a530871-b6c6-4783-ac6b-69cc3b084192"
+  },
+  "which age group do you belong to?": {
+   "q": "Which age group do you belong to?",
+   "a": "26-34",
+   "kind": "radio",
+   "seen": 4,
+   "first": "2026-11-02",
+   "last": "2026-11-03",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-paddle-7642fac5-d94b-4157-8b19-79a7dbc115ea"
+  },
+  "location (city, country)": {
+   "q": "Location (City, Country)",
+   "a": "Pune, Maharashtra, India",
+   "kind": "combo",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-airwallex-3c5176fb-6eee-4bf4-8031-36f0528c71a3"
+  },
+  "if yes, please indicate if you are": {
+   "q": "If Yes, please indicate if you are",
+   "a": "Other (e.g. PEP, ONE Pass or other)",
+   "kind": "radio",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-airwallex-3c5176fb-6eee-4bf4-8031-36f0528c71a3"
+  },
+  "do you have the right to live and work in singapore?": {
+   "q": "Do you have the right to live and work in Singapore?",
+   "a": "No",
+   "kind": "buttons",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-airwallex-3c5176fb-6eee-4bf4-8031-36f0528c71a3"
+  },
+  "we encourage you to use ai tools to help research, prepare, or refine your application materials. however, we ask that you do not use ai tools during live, real-time interviews unless you've been explicitly told otherwise. our goal during live conversations is to get a true sense of how you think on": {
+   "q": "We encourage you to use AI tools to help research, prepare, or refine your application materials. However, we ask that you do not use AI tools during live, real-time interviews unless you've been explicitly told otherwise. Our goal during live conversations is to get a true sense of how you think on",
+   "a": "Yes",
+   "kind": "buttons",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-airwallex-3c5176fb-6eee-4bf4-8031-36f0528c71a3"
+  },
+  "do you have hands-on experience with robotics, autonomous vehicle or computer vision datasets (sensor data, annotations or model outputs)?": {
+   "q": "Do you have hands-on experience with robotics, autonomous vehicle or computer vision datasets (sensor data, annotations or model outputs)?",
+   "a": "Yes",
+   "kind": "buttons",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-wayve-61807813-98e4-4884-a002-b330a794ab73"
+  },
+  "what is your religion or belief?": {
+   "q": "What is your religion or belief?",
+   "a": "Hindu",
+   "kind": "combo",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-wayve-61807813-98e4-4884-a002-b330a794ab73"
+  },
+  "location": {
+   "q": "Location",
+   "a": "Pune, Maharashtra, India",
+   "kind": "combo",
+   "seen": 8,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-lovable-4a2535cc-9b62-42d4-9401-941c465ee56b"
+  },
+  "if applying for our defence team, you may be required travel throughout the uk on a weekly basis, please confirm this is something you are comfortable with": {
+   "q": "If applying for our Defence team, you may be required travel throughout the UK on a weekly basis, please confirm this is something you are comfortable with",
+   "a": "No",
+   "kind": "buttons",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-faculty-74516bac-468a-44ad-84f6-4d4d8a0ca93f"
+  },
+  "are you able to work from our us office three days per week?": {
+   "q": "Are you able to work from our US office three days per week?",
+   "a": "Yes",
+   "kind": "buttons",
+   "seen": 1,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-openai-ca300a6d-a2a7-4580-aad7-323fbdfee7b1"
+  },
+  "where are you located?": {
+   "q": "Where are you located?",
+   "a": "India",
+   "kind": "combo",
+   "seen": 2,
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "from": "jobs.ashbyhq.com",
+   "job_id": "ab-paddle-7642fac5-d94b-4157-8b19-79a7dbc115ea"
+  }
+ },
+ "overrides": {
+  "located": {
+   "values": [
+    "India",
+    "pune",
+    "indi"
+   ],
+   "last": "2026-11-02",
+   "replaced": null
+  },
+  "eeo_religion": {
+   "values": [
+    "Hindu"
+   ],
+   "last": "2026-11-02",
+   "replaced": "I'd rather not say"
+  }
+ }
+}

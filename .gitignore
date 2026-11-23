@@ -1,0 +1,42 @@
+# ── Generated / runtime state ─────────────────────────────────────────────
+data/logs/
+data/autopilot_profile/
+data/autopilot_state.json
+data/needs_queue.json
+data/questions_for_rohit.md
+data/form_reports/
+data/jd/
+
+# ── Per-job application folders (tailored PDFs, cover letters, form reports)
+applications/
+
+# ── Resume binaries (rebuild from master.tex)
+resume/*.pdf
+
+# ── Large binary tools
+tools/tectonic.exe
+
+# ── Test output / Chromium profiles
+tests/out/
+
+# ── Temp / scratch files
+tmp_fill.py
+tools/_tmp_*.py
+tools/_w_*.py
+
+# ── Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ── Virtual environments
+venv/
+.venv/
+env/
+
+# ── OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

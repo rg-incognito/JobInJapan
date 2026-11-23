@@ -1,0 +1,18 @@
+rank,country,work_visa_route,visa_salary_floor_approx (verify on official site),typical_gross_pay_2-3yrs_SWE,approx_INR_LPA,clears_40LPA,english_only_jobs,difficulty_for_you,notes
+1,Germany,EU Blue Card (IT specialists qualify) / Opportunity Card (Chancenkarte) to job-hunt on site,~EUR 45.9k/yr (shortage/IT rate 2026),EUR 55k-75k,55-75,Yes,Many (Berlin/Munich),Medium,Largest market for sponsored SWE roles; Blue Card -> PR in 21-27 months; recognised Indian B.Tech needed (check anabin)
+2,Netherlands,Highly Skilled Migrant (employer must be IND recognised sponsor),~EUR 4.4k/month if under 30 (2026),EUR 55k-80k,55-80,Yes,Almost all,Medium,Fast permits (2-4 weeks); 30% tax ruling (falls to 27% from 2027); Amsterdam rent is high
+3,Ireland,Critical Skills Employment Permit,~EUR 38k-41k/yr with degree,EUR 60k-85k,60-85,Yes,All,Medium,English-speaking EU hub (Stripe/Datadog/MongoDB/Google); Stamp 4 after 2 yrs
+4,UK,Skilled Worker visa (licensed sponsor),GBP 41.7k (or ~GBP 33.4k new-entrant rate if eligible),GBP 50k-80k (London),58-95,Yes,All,Medium-Hard,Most openings found by the fetcher; Immigration Skills Charge makes some firms reluctant
+5,Japan,Engineer/Specialist in Humanities/International Services visa; Highly Skilled Professional points,No fixed floor (must match Japanese pay),JPY 6M-10M at international tech firms,34-57,Only at intl tech (Mercari/PayPay/Rakuten/Woven/Indeed/Amazon),Few - Japanese N2 opens 10x more roles,Medium (Hard without Japanese),Easy visa; low cost of living vs pay; typical Japanese firms pay below 40 LPA - target international tech only
+6,Poland,Work permit (Type A) / EU Blue Card,Blue Card ~PLN 8.5k+/month,PLN 180k-280k (B2B contracts often higher),42-66,Yes (mid-level+),Most,Easy-Medium,Low cost of living - best savings ratio in EU; Krakow/Warsaw hubs (Google/Revolut/Allegro/Snowflake/Ocado)
+7,Singapore,Employment Pass (COMPASS points),SGD 5.6k+/month,SGD 72k-110k,49-75,Yes,All,Medium,Many Asia HQs (Grab/OpenAI/Airwallex); low tax
+8,UAE,Employer work visa,None meaningful,AED 180k-300k tax-free,43-72,Yes,All,Easy,Tax-free; fewer pure product-engineering roles
+9,Sweden,Work permit,~SEK 28.5k/month (80% median),SEK 550k-750k,50-68,Yes,Most,Medium,Spotify/Klarna/Trustly; permanent residency route
+10,Finland,Specialist permit / EU Blue Card,~EUR 3.8k/month (specialist),EUR 50k-65k,50-65,Yes,Most,Easy-Medium,Fast-track permit (~2 weeks); Wolt/Supercell
+11,Denmark,Pay Limit Scheme / Fast-track,~DKK 514k/yr pay-limit,DKK 550k-700k,72-92,Yes,Most,Medium,High pay and high tax
+12,Estonia,D-visa / work registration,~EUR 2k/month,EUR 45k-60k,45-60,Yes,All,Easy,Wise/Bolt/Veriff hub in Tallinn; gateway to EU
+13,Austria,Red-White-Red Card / EU Blue Card,~EUR 50k/yr Blue Card,EUR 50k-65k,50-65,Yes,Some (German helps),Medium,
+14,Spain,Highly Qualified Professional visa,~EUR 40k/yr,EUR 38k-55k,38-55,Borderline,Some,Medium,Barcelona/Madrid; lower pay
+15,Portugal,Tech Visa / Highly Qualified,~EUR 2.2k/month,EUR 30k-50k,30-50,Often no,Most,Easy,Cheap and easy but pay often under 40 LPA
+16,France,Talent Passport (Passeport Talent),~EUR 53.8k for Blue Card track,EUR 45k-65k (Paris),45-65,Yes,Some - French helps,Medium,
+17,Switzerland,Non-EU permit (quota),Highest,CHF 100k-140k,95-130,Yes,Some,Very Hard,Employers must prove no EU candidate - realistic only via Google/big tech internal transfer

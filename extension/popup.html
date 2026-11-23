@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: 13px/1.4 system-ui, sans-serif; width: 260px; margin: 12px; color: #111; }
+  h1 { font-size: 15px; margin: 0 0 8px; }
+  .row { display: flex; align-items: center; gap: 6px; margin: 6px 0; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #9ca3af; }
+  .ok { background: #16a34a; } .bad { background: #dc2626; }
+  button { width: 100%; padding: 7px; margin-top: 6px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; font-weight: 600; cursor: pointer; }
+  button.secondary { background: #e5e7eb; color: #111; }
+  small { color: #6b7280; display: block; margin-top: 8px; }
+</style>
+</head>
+<body>
+  <h1>JobFill</h1>
+  <div class="row"><span id="dot" class="dot"></span><span id="server">Checking server…</span></div>
+  <label class="row"><input type="checkbox" id="auto"> Auto-fill when a form opens</label>
+  <button id="fill">Fill this page now</button>
+  <button id="clear" class="secondary">Clear highlights</button>
+  <small>Green = filled · Amber = needs your answer · Purple = consent, tick it yourself. JobFill never submits.</small>
+  <script src="popup.js"></script>
+</body>
+</html>

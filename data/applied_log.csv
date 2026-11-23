@@ -1,0 +1,35 @@
+date,job_id,company,how
+2026-11-01,gh-wolt-8159098,Wolt,before autopilot
+2026-11-01,gh-jetbrains-4866608101,JetBrains,before autopilot
+2026-11-02,ab-openai-c1316397-25bb-4add-9e9d-0e3ea8ba929a,OpenAI,before autopilot
+2026-11-01,gh-anthropic-5423029008,Anthropic,before autopilot
+2026-11-01,ab-snowflake-d576a5a4-1409-45fa-b710-db8d52041551,Snowflake,before autopilot
+2026-11-01,ab-openai-fb5862cc-244c-410b-b287-47df89ad1e43,OpenAI,before autopilot
+2026-11-01,gh-stripe-8226261,Stripe,before autopilot
+2026-11-02,ab-snowflake-6e31e0cb-7821-4dcf-9d69-0afce918bcc4,Snowflake,before autopilot
+2026-11-01,ab-airwallex-f4d64c0e-2425-409c-a296-4c4c6b9fe824,Airwallex,before autopilot
+2026-11-02,gh-stripe-8175656,Stripe,before autopilot
+2026-11-01,gh-databricks-8029666002,Databricks,before autopilot
+2026-11-02,gh-adyen-7369512,Adyen,before autopilot
+2026-11-02,ab-snowflake-23c94498-23c8-4d6e-a1d8-4355bf605663,Snowflake,before autopilot
+2026-11-02,gh-monzo-6635595,Monzo,before autopilot
+2026-11-02,gh-adyen-6761873,Adyen,before autopilot
+2026-11-01,ab-n8n-c9fc97fa-a473-4133-b3cb-502785649ecd,n8n,before autopilot
+2026-11-01,sr-scalablegmbh-744000157800719,Scalable Capital,before autopilot
+2026-11-02,ab-cohere-2d256112-b336-4539-8133-a0bf7f6698f0,Cohere,before autopilot
+2026-11-02,ab-elevenlabs-3abf96ca-2937-4290-9d23-5208aece08b2,ElevenLabs,submit-queue
+2026-11-02,ab-openai-a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3,OpenAI,submit-queue
+2026-11-02,ab-wayve-61807813-98e4-4884-a002-b330a794ab73,Wayve,submit-queue
+2026-11-02,ab-wayve-88d59a4c-d681-46da-b663-41b2ccceffa8,Wayve,submit-queue
+2026-11-02,ab-airwallex-3c5176fb-6eee-4bf4-8031-36f0528c71a3,Airwallex,submit-queue
+2026-11-02,ab-cohere-291e5dee-dcda-49e6-a1b6-dae0d48f80af,Cohere,submit-queue
+2026-11-02,ab-alan-2dc99c53-9cc7-4c3f-a682-1f79bfa38ce6,Alan,submit-queue
+2026-11-02,ab-faculty-74516bac-468a-44ad-84f6-4d4d8a0ca93f,Faculty,submit-queue
+2026-11-02,ab-legora-f81a4b5e-7ef3-4946-a147-f6c0645e98ca,Legora,submit-queue
+2026-11-02,ab-legora-3ecb346f-1903-4d06-99ca-e28ef3806bbb,Legora,submit-queue
+2026-11-02,ab-lovable-4a2535cc-9b62-42d4-9401-941c465ee56b,Lovable,submit-queue
+2026-11-02,ab-openai-ca300a6d-a2a7-4580-aad7-323fbdfee7b1,OpenAI,submit-queue
+2026-11-03,ab-alan-9160db0d-a894-4fba-be07-c4b9f6fd2605,Alan,submit-queue
+2026-11-03,ab-faculty-ac255dcf-1e7b-453a-891f-84a778e9521e,Faculty,submit-queue
+2026-11-03,ab-openai-f8b84ae5-743b-41c9-8432-02dff9993d6b,OpenAI,submit-queue
+2026-11-03,ab-paddle-7642fac5-d94b-4157-8b19-79a7dbc115ea,Paddle,submit-queue

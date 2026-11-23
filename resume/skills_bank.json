@@ -1,0 +1,95 @@
+{
+  "_rule": "Tailoring may only surface skills listed under 'confirmed'. Items in 'to_confirm' must be moved to 'confirmed' by Rohit before use. Never add anything else.",
+  "confirmed": {
+    "languages": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "SQL",
+      "TypeScript",
+      "Kotlin",
+      "Go"
+    ],
+    "backend": [
+      "Spring Boot",
+      "Node.js",
+      "RESTful APIs",
+      "Microservices",
+      "JUnit",
+      "Web scraping",
+      "End-to-end testing",
+      "Data parsing / vendor feed ingestion",
+      "Dependency/version management tooling",
+      "gRPC",
+      "Protocol Buffers",
+      "Distributed systems",
+      "Unit testing",
+      "Integration testing",
+      "Hibernate / JPA",
+      "Maven",
+      "Gradle",
+      "Kafka",
+      "Redis",
+      "FastAPI",
+      "Flask"
+    ],
+    "frontend": [
+      "React",
+      "Angular"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "RDBMS",
+      "NoSQL",
+      "MongoDB",
+      "Redis"
+    ],
+    "cloud_tools": [
+      "AWS",
+      "Docker",
+      "CI/CD pipelines",
+      "Consul",
+      "AWS EC2",
+      "AWS ECR",
+      "AWS S3",
+      "AWS CloudWatch",
+      "Amazon Bedrock",
+      "Bamboo",
+      "Bitbucket",
+      "Git",
+      "Terraform",
+      "Kubernetes",
+      "GCP",
+      "Azure",
+      "Linux"
+    ],
+    "ai_ml": [
+      "LLMs",
+      "AI Agents",
+      "CrewAI",
+      "OpenAI (ChatGPT) API",
+      "Computer Vision",
+      "YOLOv4",
+      "Machine Learning",
+      "Claude Code (plugins & skills)",
+      "Prompt engineering",
+      "RAG",
+      "LangChain"
+    ],
+    "practices": [
+      "Data structures & algorithms",
+      "Automation",
+      "Agile / Scrum",
+      "Code review",
+      "Object-oriented programming",
+      "Playwright",
+      "Selenium"
+    ]
+  },
+  "to_confirm": [
+    "HTML / CSS",
+    "Japanese (JLPT level?)",
+    "German (level?)"
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "candidate": {
+    "name": "Rohit Gande",
+    "years_experience": 2,
+    "min_salary_inr_lpa": 40
+  },
+  "target_countries": {
+    "Germany": [
+      "germany",
+      "berlin",
+      "munich",
+      "münchen",
+      "hamburg",
+      "frankfurt",
+      "cologne",
+      "köln",
+      "düsseldorf",
+      "dusseldorf",
+      "stuttgart",
+      "chemnitz",
+      "leipzig",
+      "karlsruhe",
+      "walldorf"
+    ],
+    "Netherlands": [
+      "netherlands",
+      "amsterdam",
+      "rotterdam",
+      "utrecht",
+      "eindhoven",
+      "the hague",
+      "den haag"
+    ],
+    "Ireland": [
+      "ireland",
+      "dublin",
+      "cork"
+    ],
+    "Japan": [
+      "japan",
+      "tokyo",
+      "osaka",
+      "fukuoka",
+      "kyoto",
+      "yokohama"
+    ],
+    "Poland": [
+      "poland",
+      "warsaw",
+      "warszawa",
+      "krakow",
+      "kraków",
+      "wroclaw",
+      "wrocław",
+      "gdansk",
+      "gdańsk",
+      "poznan",
+      "poznań"
+    ],
+    "UK": [
+      "united kingdom",
+      "london",
+      "manchester",
+      "edinburgh",
+      "cambridge",
+      "uk"
+    ],
+    "Sweden": [
+      "sweden",
+      "stockholm",
+      "gothenburg",
+      "malmö"
+    ],
+    "Finland": [
+      "finland",
+      "helsinki"
+    ],
+    "Denmark": [
+      "denmark",
+      "copenhagen"
+    ],
+    "Norway": [
+      "norway",
+      "oslo"
+    ],
+    "Estonia": [
+      "estonia",
+      "tallinn"
+    ],
+    "Austria": [
+      "austria",
+      "vienna",
+      "wien"
+    ],
+    "Spain": [
+      "spain",
+      "barcelona",
+      "madrid"
+    ],
+    "Portugal": [
+      "portugal",
+      "lisbon",
+      "porto"
+    ],
+    "Czechia": [
+      "czech",
+      "prague",
+      "brno"
+    ],
+    "France": [
+      "france",
+      "paris"
+    ],
+    "Luxembourg": [
+      "luxembourg"
+    ],
+    "Singapore": [
+      "singapore"
+    ],
+    "UAE": [
+      "dubai",
+      "abu dhabi",
+      "united arab emirates",
+      "uae"
+    ]
+  },
+  "title_include": [
+    "software engineer",
+    "software developer",
+    "software development engineer",
+    "sde",
+    "swe",
+    "backend engineer",
+    "back-end engineer",
+    "back end engineer",
+    "backend developer",
+    "full stack engineer",
+    "fullstack engineer",
+    "full-stack engineer",
+    "full stack developer",
+    "fullstack developer",
+    "full-stack developer",
+    "java engineer",
+    "java developer",
+    "python engineer",
+    "python developer",
+    "forward deployed",
+    "forward-deployed",
+    "fde",
+    "engineer ii",
+    "engineer 2"
+  ],
+  "title_exclude": [
+    " qa",
+    "account executive",
+    "advocate",
+    "android",
+    "apprentice",
+    "architect",
+    "automation",
+    "counsel",
+    "customer",
+    "data engineer",
+    "data platform",
+    "designer",
+    "devops",
+    "director",
+    "distinguished",
+    "embedded",
+    "entry level",
+    "entry-level",
+    "evangelist",
+    "firmware",
+    "front end",
+    "front-end",
+    "frontend",
+    "game",
+    "graduate",
+    "hardware",
+    "head of",
+    "intern",
+    "internship",
+    "ios",
+    "junior",
+    "legal",
+    "manager",
+    "marketing",
+    "mobile",
+    "network",
+    "new grad",
+    "phd",
+    "principal",
+    "qa ",
+    "quality",
+    "recruit",
+    "reliability",
+    "research scientist",
+    "researcher",
+    "sales",
+    "sales engineer",
+    "sdet",
+    "security engineer",
+    "site reliability",
+    "solutions engineer",
+    "staff",
+    "student",
+    "support engineer",
+    "test",
+    "trainee",
+    "vice president",
+    "vp ",
+    "werkstudent",
+    "working student"
+  ],
+  "senior_keywords": [
+    "senior",
+    "sr.",
+    "sr ",
+    "lead"
+  ],
+  "no_sponsor_phrases": [
+    "no visa sponsorship",
+    "not able to sponsor",
+    "unable to sponsor",
+    "cannot sponsor",
+    "can not sponsor",
+    "do not sponsor",
+    "does not sponsor",
+    "will not sponsor",
+    "won't sponsor",
+    "not offer visa",
+    "not provide visa",
+    "without the need for sponsorship",
+    "without requiring sponsorship",
+    "must have the right to work",
+    "must already have the right to work",
+    "must be eligible to work in",
+    "must hold a valid work permit",
+    "eu citizenship",
+    "security clearance",
+    "relocation support is not offered",
+    "relocation is not offered",
+    "no relocation",
+    "not offer relocation",
+    "relocation support is not provided",
+    "relocation is not provided",
+    "not able to offer relocation",
+    "unable to offer relocation",
+    "not eligible for relocation",
+    "does not offer relocation",
+    "b2b contract",
+    "(b2b)",
+    "freelance/service agreement",
+    "not an employment contract",
+    "independent contractor",
+    "contractor engagement",
+    "freelance basis"
+  ],
+  "sponsor_phrases": [
+    "visa sponsorship",
+    "sponsor your visa",
+    "relocation support",
+    "relocation package",
+    "relocation assistance",
+    "we sponsor",
+    "blue card",
+    "help with your visa",
+    "visa support",
+    "relocation budget",
+    "relocate to",
+    "work permit support",
+    "immigration support"
+  ],
+  "max_required_years": 4,
+  "country_priority": [
+    "Germany",
+    "Netherlands",
+    "Japan",
+    "Poland",
+    "Ireland"
+  ]
+}

@@ -1,0 +1,177 @@
+company,ats,slug,careers_url,target_offices,sponsorship_signal,tier,notes
+N26,greenhouse,n26,https://n26.com/en/careers,Berlin; Barcelona,Known to relocate & sponsor Blue Card,A,Fintech; Java/Kotlin backend
+Celonis,greenhouse,celonis,https://www.celonis.com/careers,Munich; Berlin; Krakow; Madrid,Known to sponsor,A,Process mining; Java/Python
+Contentful,greenhouse,contentful,https://www.contentful.com/careers/,Berlin,Known to sponsor,A,Node/TypeScript
+GetYourGuide,greenhouse,getyourguide,https://careers.getyourguide.com/,Berlin; Zurich,Known to relocate,A,Java/Kotlin/Python
+HelloFresh,greenhouse,hellofresh,https://careers.hellofresh.com/,Berlin; Amsterdam,Known to relocate,A,Go/Java/Python
+Trade Republic,greenhouse,traderepublicbank,https://traderepublic.com/careers,Berlin,Known to relocate,A,High pay; Kotlin/Java
+Adyen,greenhouse,adyen,https://careers.adyen.com/,Amsterdam; Madrid,IND recognised sponsor,A,Java heavy - strong fit
+Mollie,ashby,mollie,https://jobs.mollie.com/,Amsterdam,IND recognised sponsor,A,Payments
+Elastic,greenhouse,elastic,https://www.elastic.co/careers,Remote EU; Amsterdam,Mostly remote - sponsorship case by case,B,Java
+Datadog,greenhouse,datadog,https://careers.datadoghq.com/,Paris; Dublin; Amsterdam; Tokyo; Madrid,Known to sponsor,A,Go/Java/Python
+MongoDB,greenhouse,mongodb,https://www.mongodb.com/careers,Dublin; London; Barcelona,Known to sponsor (IE Critical Skills),A,Java/Node
+Stripe,greenhouse,stripe,https://stripe.com/jobs,Dublin; London; Tokyo; Berlin,Known to sponsor,A,Very high pay; Java/Ruby
+Cloudflare,greenhouse,cloudflare,https://www.cloudflare.com/careers/,Lisbon; London; Amsterdam; Munich; Tokyo,Known to sponsor,A,Go/Rust/Python
+PayPay,greenhouse,paypay,https://about.paypay.ne.jp/career/,Tokyo,Sponsors Japan work visa; English OK,A,Java/Kotlin - strong fit
+Woven by Toyota,lever,woven-by-toyota,https://woven.toyota/en/careers/,Tokyo,Sponsors Japan work visa; English OK,A,Python/C++/Cloud
+Wise,smartrecruiters,wise,https://wise.jobs/,Tallinn; London; Budapest; Tokyo,Known to sponsor,A,Java/Kotlin
+Intercom,greenhouse,intercom,https://www.intercom.com/careers,Dublin; London,Known to sponsor,A,Ruby/React; AI products
+Pleo,ashby,pleo,https://www.pleo.io/en/careers,Copenhagen; Lisbon,Known to relocate,B,Fintech
+Spotify,lever,spotify,https://www.lifeatspotify.com/,Stockholm; London,Known to sponsor,A,Java/Python
+Miro,ashby,miro,https://miro.com/careers/,Amsterdam; Berlin,Known to relocate,A,Java/Kotlin
+Doctolib,greenhouse,doctolib,https://careers.doctolib.com/,Paris; Berlin,Some sponsorship,B,Ruby/React
+Docker,ashby,docker,https://www.docker.com/careers/,Remote,Remote - limited sponsorship,C,Go
+Delivery Hero,smartrecruiters,DeliveryHero,https://careers.deliveryhero.com/,Berlin,Known to sponsor Blue Card,A,Java/Go/Python
+SumUp,greenhouse,sumup,https://www.sumup.com/careers/,Berlin; Sofia; London,Known to relocate,B,Go/Java
+Raisin,greenhouse,raisin,https://www.raisin.com/en-de/careers/,Berlin,Some sponsorship,B,Java/Kotlin
+commercetools,greenhouse,commercetools,https://commercetools.com/careers,Munich; Berlin,Some sponsorship,B,Java/Scala/TS
+Scalable Capital,smartrecruiters,scalablegmbh,https://scalable.capital/en/careers,Munich; Berlin,Known to relocate,B,Java/Kotlin
+Babbel,ashby,babbel,https://jobs.babbel.com/,Berlin,Known to relocate,B,Ruby/React
+Flix,greenhouse,flix,https://www.flix.careers/,Munich; Berlin,Known to relocate,A,Java/Python
+Omio,smartrecruiters,omio,https://www.omio.com/careers,Berlin; Prague,Known to relocate,B,Java/Kotlin
+Solaris,greenhouse,solarisbank,https://www.solarisgroup.com/en/careers/,Berlin,Some sponsorship,B,Ruby/Go
+trivago,greenhouse,trivago,https://company.trivago.com/jobs,Dusseldorf,Known to relocate,B,PHP/Go/Java
+AUTO1 Group,smartrecruiters,auto1,https://www.auto1-group.com/jobs/,Berlin,Known to relocate,A,Java/Spring - strong fit
+Picnic,smartrecruiters,picnic,https://jobs.picnic.app/,Amsterdam,IND recognised sponsor,A,Java/Python
+Catawiki,greenhouse,catawiki,https://www.catawiki.com/en/careers,Amsterdam,IND recognised sponsor,B,Ruby/Java
+IMC Trading,greenhouse,imc,https://www.imc.com/eu/careers,Amsterdam,IND recognised sponsor,A,Very high pay; Java/C++
+Flow Traders,greenhouse,flowtraders,https://www.flowtraders.com/careers,Amsterdam,IND recognised sponsor,A,Very high pay
+Staffbase,greenhouse,staffbase,https://staffbase.com/en/jobs/,Chemnitz; Berlin,Some sponsorship,B,Java/Node
+DeepL,ashby,deepl,https://www.deepl.com/careers,Cologne; Berlin; Amsterdam,Known to relocate,A,AI; Python
+Parloa,ashby,parloa,https://www.parloa.com/careers,Berlin; Munich,Some sponsorship,B,AI agents - strong fit for LLM projects
+Helsing,greenhouse,helsing,https://helsing.ai/careers,Munich; Berlin; London,Defence - often EU/NATO nationals only,C,Check citizenship rules
+n8n,ashby,n8n,https://n8n.io/careers/,Berlin; Remote EU,Some sponsorship,A,TypeScript; automation/AI - strong fit
+Bitpanda,greenhouse,bitpanda,https://www.bitpanda.com/en/career,Vienna; Berlin,Some sponsorship,B,Fintech
+Databricks,greenhouse,databricks,https://www.databricks.com/company/careers,Amsterdam; Berlin; Belgrade,Known to sponsor,A,Very high pay
+Snowflake,ashby,snowflake,https://careers.snowflake.com/,Berlin; Warsaw,Known to sponsor,A,Java/C++
+Grafana Labs,greenhouse,grafanalabs,https://grafana.com/about/careers/,Remote EU,Remote - limited sponsorship,C,Go
+Canonical,greenhouse,canonical,https://canonical.com/careers,Remote,Remote - no relocation typically,C,Python/Go
+Wolt,greenhouse,wolt,https://careers.wolt.com/,Helsinki; Berlin; Stockholm,Known to relocate,A,Python/Scala/Kotlin
+Supercell,ashby,supercell,https://supercell.com/en/careers/,Helsinki,Known to relocate,B,Games; high pay
+Veriff,greenhouse,veriff,https://www.veriff.com/careers,Tallinn,Known to relocate,B,Python/TS
+Typeform,greenhouse,typeform,https://www.typeform.com/careers/,Barcelona,Some sponsorship,C,
+Cabify,greenhouse,cabify,https://cabify.careers/,Madrid,Some sponsorship,C,Lower pay
+Docplanner,ashby,docplanner,https://docplanner.tech/,Warsaw; Barcelona,Known to relocate,B,PHP/Java
+Monzo,greenhouse,monzo,https://monzo.com/careers,London,UK licensed sponsor,A,Go
+GoCardless,greenhouse,gocardless,https://gocardless.com/about/careers/,London; Dublin,UK licensed sponsor,B,Ruby/Go
+Deliveroo,greenhouse,deliveroo,https://careers.deliveroo.co.uk/,London,UK licensed sponsor,B,Go/Python
+Palantir,lever,palantir,https://www.palantir.com/careers/,London; Copenhagen; Tokyo,Known to sponsor,A,Very high pay; Java/TS
+Airwallex,ashby,airwallex,https://careers.airwallex.com/,Singapore; Melbourne; Tokyo,Known to sponsor,A,Java/Kotlin/Go
+Grab,smartrecruiters,grab,https://grab.careers/,Singapore,Sponsors Singapore EP,A,Go/Java
+Binance,greenhouse,binance,https://www.binance.com/en/careers,Dubai; Remote,Varies,C,Crypto
+OKX,greenhouse,okx,https://www.okx.com/join-us,Dubai; Singapore,Varies,C,Crypto
+Plaid,ashby,plaid,https://plaid.com/careers/,London; Amsterdam,Some sponsorship,B,
+Coinbase,greenhouse,coinbase,https://www.coinbase.com/careers,Remote; Dublin; London,Varies,B,
+Figma,greenhouse,figma,https://www.figma.com/careers/,London; Berlin,Some sponsorship,B,
+Notion,ashby,notion,https://www.notion.com/careers,Dublin; Tokyo,Some sponsorship,B,
+Vercel,greenhouse,vercel,https://vercel.com/careers,Remote EU; London; Berlin,Remote - limited sponsorship,C,TypeScript/Next.js
+Supabase,ashby,supabase,https://supabase.com/careers,Remote,Remote contractor - no visa,C,
+Sentry,ashby,sentry,https://sentry.io/careers/,Vienna; Amsterdam,Some sponsorship,B,Python/React
+Workato,greenhouse,workato,https://www.workato.com/careers,Barcelona; Singapore; Tokyo,Some sponsorship,B,Automation - fit
+JetBrains,greenhouse,jetbrains,https://www.jetbrains.com/careers/,Amsterdam; Berlin; Munich; Prague,Known to relocate,A,Java/Kotlin - strong fit
+Camunda,ashby,camunda,https://camunda.com/careers/,Berlin; Remote EU,Known to relocate,A,Java/Spring - strong fit
+Algolia,greenhouse,algolia,https://www.algolia.com/careers/,Paris; London,Some sponsorship,B,
+Mirakl,greenhouse,mirakl,https://www.mirakl.com/careers,Paris; Barcelona,Some sponsorship,B,Java
+Qonto,ashby,qonto,https://qonto.com/en/careers,Paris; Barcelona; Berlin,Some sponsorship,B,Go/Ruby
+Back Market,ashby,backmarket,https://jobs.backmarket.com/,Paris; Bordeaux,Some sponsorship,C,French helps
+Ledger,ashby,ledger,https://www.ledger.com/join-us,Paris,Some sponsorship,C,
+Dataiku,greenhouse,dataiku,https://www.dataiku.com/careers/,Paris; London,Some sponsorship,B,Java/Python
+Rohlik,ashby,rohlik,https://www.rohlik.group/careers,Prague; Berlin; Vienna,Known to relocate,B,Java/Kotlin
+UiPath,ashby,uipath,https://careers.uipath.com/,Bucharest; Bengaluru; London,Some sponsorship,B,Automation/AI agents - fit
+Trustpilot,greenhouse,trustpilot,https://careers.trustpilot.com/,Copenhagen; London,Known to relocate,B,.NET/Node
+Tide,greenhouse,tide,https://www.tide.co/careers/,London; Sofia; Hyderabad,UK licensed sponsor,B,Java/Spring
+Wayflyer,ashby,wayflyer,https://wayflyer.com/careers,Dublin,IE Critical Skills sponsor,B,Python
+Workhuman,ashby,workhuman,https://www.workhuman.com/careers/,Dublin,IE Critical Skills sponsor,B,Java
+Qualtrics,greenhouse,qualtrics,https://www.qualtrics.com/careers/,Dublin; Krakow,Known to sponsor,B,Java/TS
+Squarespace,greenhouse,squarespace,https://www.squarespace.com/about/careers,Dublin,Known to sponsor,B,Java
+Dropbox,greenhouse,dropbox,https://jobs.dropbox.com/,Dublin; Warsaw,Some sponsorship,B,
+Reddit,greenhouse,reddit,https://www.redditinc.com/careers,Dublin; London; Amsterdam,Some sponsorship,B,
+Pinterest,greenhouse,pinterest,https://www.pinterestcareers.com/,Dublin; London,Some sponsorship,B,
+Airbnb,greenhouse,airbnb,https://careers.airbnb.com/,Dublin,Some sponsorship,C,Few eng roles in EU
+Okta,greenhouse,okta,https://www.okta.com/company/careers/,Warsaw; Dublin; London,Some sponsorship,B,Java
+Twilio,greenhouse,twilio,https://www.twilio.com/en-us/company/jobs,Tallinn; Dublin; London,Known to relocate,B,Java/Python
+Samsara,greenhouse,samsara,https://www.samsara.com/company/careers,London; Remote,Some sponsorship,B,Go
+Anthropic,greenhouse,anthropic,https://www.anthropic.com/careers,London; Dublin; Tokyo,Known to sponsor,A,Very high pay; high bar
+OpenAI,ashby,openai,https://openai.com/careers/,London; Dublin; Tokyo,Known to sponsor,A,Very high pay; high bar
+Cohere,ashby,cohere,https://cohere.com/careers,London,Some sponsorship,B,AI
+Perplexity,ashby,perplexity,https://www.perplexity.ai/hub/careers,London; Berlin,Some sponsorship,B,AI
+Pigment,lever,pigment,https://www.pigment.com/careers,Paris; London,Some sponsorship,C,
+Aircall,lever,aircall,https://aircall.io/careers/,Paris; Madrid,Some sponsorship,C,
+Swile,lever,swile,https://www.swile.co/careers,Paris,Some sponsorship,C,French helps
+Contentsquare,lever,contentsquare,https://contentsquare.com/careers/,Paris; Barcelona,Some sponsorship,C,
+Trustly,ashby,trustly,https://www.trustly.com/careers,Stockholm,Known to relocate,B,Java
+Truecaller,greenhouse,truecaller,https://www.truecaller.com/careers,Stockholm; Bengaluru,Known to relocate,B,Kotlin/Java
+Cognite,greenhouse,cognite,https://www.cognite.com/en/careers,Oslo,Known to relocate,B,Python/Kotlin
+Lunar,ashby,lunar,https://www.lunar.app/en/careers,Copenhagen,Known to relocate,C,Go
+DataCamp,greenhouse,datacamp,https://www.datacamp.com/careers,Leuven; London,Some sponsorship,C,
+Zalando,manual,,https://jobs.zalando.com/,Berlin; Dublin,Known to sponsor Blue Card,A,Java/Kotlin/Scala - strong fit
+SAP,manual,,https://jobs.sap.com/,Walldorf; Berlin; Prague,Known to sponsor,A,Java
+Booking.com,manual,,https://careers.booking.com/,Amsterdam,IND recognised sponsor,A,Java/Perl/Python; high pay
+Revolut,manual,,https://www.revolut.com/careers/,London; Krakow; Lisbon,Known to relocate,A,Java/Kotlin/Python
+Klarna,manual,,https://www.klarna.com/careers/,Stockholm; Berlin,Known to relocate,A,Java/Kotlin
+Allegro,manual,,https://jobs.allegro.eu/,Warsaw; Poznan; Krakow,Work permit support,A,Java/Kotlin - strong fit
+Google,manual,,https://www.google.com/about/careers/applications/,Warsaw; Zurich; Munich; Dublin; London; Tokyo,Known to sponsor,A,Very high pay; high bar
+Amazon,manual,,https://www.amazon.jobs/,Berlin; Dublin; Luxembourg; Gdansk; Tokyo,Known to sponsor,A,Java - fit
+Microsoft,manual,,https://careers.microsoft.com/,Dublin; Prague; Warsaw; Tokyo,Known to sponsor,A,
+Mercari,manual,,https://careers.mercari.com/en/,Tokyo,Sponsors Japan work visa; English OK,A,Go/Kotlin; top intl employer in JP
+Rakuten,manual,,https://rakuten.careers/,Tokyo,Sponsors Japan work visa; English official language,A,Java - strong fit
+LY Corporation (LINE Yahoo),manual,,https://www.lycorp.co.jp/en/recruit/,Tokyo; Fukuoka,Sponsors Japan work visa,A,Java
+SmartNews,manual,,https://about.smartnews.com/en/careers/,Tokyo,Sponsors Japan work visa,A,
+Money Forward,manual,,https://recruit.moneyforward.com/en,Tokyo,Sponsors Japan work visa; English teams,B,Ruby/Go
+Indeed Japan,manual,,https://www.indeed.jobs/,Tokyo,Sponsors Japan work visa,A,Java - high pay for Japan
+Amazon Japan,manual,,https://www.amazon.jobs/en/locations/tokyo-area,Tokyo,Sponsors Japan work visa,A,
+Preferred Networks,manual,,https://www.preferred.jp/en/careers/,Tokyo,Sponsors Japan work visa,B,AI/ML
+Mujin,manual,,https://mujin.co.jp/en/careers/,Tokyo,Sponsors Japan work visa,B,C++/Python
+Paidy,manual,,https://paidy.com/careers,Tokyo,Sponsors Japan work visa,B,Scala/Kotlin
+Booksy,manual,,https://booksy.com/careers,Warsaw,Work permit support,C,Python
+Ocado Technology,manual,,https://careers.ocadogroup.com/,Krakow; Wroclaw; London,Work permit support,B,Java - fit
+Zenjob,ashby,zenjob,,Berlin,unknown (added 2026-11-02 for autopilot),B,
+Forto,ashby,forto,,Berlin,unknown (added 2026-11-02 for autopilot),B,
+Enpal,ashby,enpal,,Berlin,unknown (added 2026-11-02 for autopilot),B,
+Pliant,ashby,pliant,,Berlin,unknown (added 2026-11-02 for autopilot),B,
+Upvest,ashby,upvest,,Berlin,unknown (added 2026-11-02 for autopilot),B,
+Cleo,greenhouse,cleo,,London,unknown (added 2026-11-02 for autopilot),B,
+Thought Machine,ashby,thought-machine,,London,unknown (added 2026-11-02 for autopilot),B,
+Paddle,ashby,paddle,,London,unknown (added 2026-11-02 for autopilot),B,
+Primer,ashby,primer,,London,unknown (added 2026-11-02 for autopilot),B,
+Marshmallow,ashby,marshmallow,,London,unknown (added 2026-11-02 for autopilot),B,
+Faculty,ashby,faculty,,London,unknown (added 2026-11-02 for autopilot),B,
+Wayve,ashby,wayve,,London,unknown (added 2026-11-02 for autopilot),B,
+Synthesia,ashby,synthesia,,London,unknown (added 2026-11-02 for autopilot),B,
+ElevenLabs,ashby,elevenlabs,,London; Warsaw,unknown (added 2026-11-02 for autopilot),B,
+Cognism,greenhouse,cognism,,London,unknown (added 2026-11-02 for autopilot),B,
+Multiverse,ashby,multiverse,,London,unknown (added 2026-11-02 for autopilot),B,
+Farfetch,ashby,farfetch,,Porto; Lisbon; London,unknown (added 2026-11-02 for autopilot),B,
+Ebury,greenhouse,ebury,,London; Madrid,unknown (added 2026-11-02 for autopilot),B,
+Form3,greenhouse,form3,,London,unknown (added 2026-11-02 for autopilot),B,
+Zopa,lever,zopa,,London,unknown (added 2026-11-02 for autopilot),B,
+Lendable,ashby,lendable,,London,unknown (added 2026-11-02 for autopilot),B,
+Moneybox,ashby,moneybox,,London,unknown (added 2026-11-02 for autopilot),B,
+Bloomreach,greenhouse,bloomreach,,Bratislava; Prague,unknown (added 2026-11-02 for autopilot),B,
+Oyster,ashby,oyster,,Remote,unknown (added 2026-11-02 for autopilot),B,
+Hopper,ashby,hopper,,Remote,unknown (added 2026-11-02 for autopilot),B,
+SeatGeek,greenhouse,seatgeek,,London,unknown (added 2026-11-02 for autopilot),B,
+Feedzai,greenhouse,feedzai,,Lisbon; Porto,unknown (added 2026-11-02 for autopilot),B,
+Sword Health,greenhouse,swordhealth,,Porto,unknown (added 2026-11-02 for autopilot),B,
+Alan,ashby,alan,,Paris; Barcelona,unknown (added 2026-11-02 for autopilot),B,
+Careem,greenhouse,careem,,Dubai,unknown (added 2026-11-02 for autopilot),B,
+Tamara,greenhouse,tamara,,Dubai,unknown (added 2026-11-02 for autopilot),B,
+Xendit,greenhouse,xendit,,Singapore,unknown (added 2026-11-02 for autopilot),B,
+Thunes,greenhouse,thunes,,Singapore,unknown (added 2026-11-02 for autopilot),B,
+Canva,smartrecruiters,canva,,London,unknown (added 2026-11-02 for autopilot),B,
+GitLab,greenhouse,gitlab,,Remote,unknown (added 2026-11-02 for autopilot),B,
+Redis,ashby,redis,,London,unknown (added 2026-11-02 for autopilot),B,
+Cockroach Labs,greenhouse,cockroachlabs,,London,unknown (added 2026-11-02 for autopilot),B,
+ClickHouse,ashby,clickhouse,,Amsterdam; London,unknown (added 2026-11-02 for autopilot),B,
+Temporal,ashby,temporal,,Remote,unknown (added 2026-11-02 for autopilot),B,
+PostHog,ashby,posthog,,Remote,unknown (added 2026-11-02 for autopilot),B,
+Linear,ashby,linear,,Remote,unknown (added 2026-11-02 for autopilot),B,
+Ramp,ashby,ramp,,London,unknown (added 2026-11-02 for autopilot),B,
+Brex,greenhouse,brex,,London,unknown (added 2026-11-02 for autopilot),B,
+Attio,ashby,attio,,London,unknown (added 2026-11-02 for autopilot),B,
+Lovable,ashby,lovable,,Stockholm,unknown (added 2026-11-02 for autopilot),B,
+Legora,ashby,legora,,Stockholm; London,unknown (added 2026-11-02 for autopilot),B,
+Tines,greenhouse,tines,,Dublin,unknown (added 2026-11-02 for autopilot),B,
+Surfshark,ashby,surfshark,,Vilnius,unknown (added 2026-11-02 for autopilot),B,
+Pennylane,ashby,pennylane,,Paris,unknown (added 2026-11-02 for autopilot),B,
+Coolblue,smartrecruiters,coolblue,,Rotterdam,unknown (added 2026-11-02 for autopilot),B,
