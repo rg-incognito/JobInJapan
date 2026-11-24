@@ -67,15 +67,16 @@
       return { key: 'notice', value: String(nd), pickRxs: picks };
     }
 
+    // ── Tech-specific experience (checked BEFORE generic so "Python exp in years" routes here) ──
+    if (/years?.{0,20}exp.{0,20}(java(?!script)|spring\b|spring\s*boot|python|javascript|js\b|node\.?js|sql|postgres)/i.test(t)
+        || /(java(?!script)|spring\b|spring\s*boot|python|javascript|js\b|node\.?js|sql|postgres).{0,20}exp/i.test(t)
+        || /exp(erience)?\s+(with|in|on|of).{0,20}(java(?!script)|spring\b|spring\s*boot|python|javascript|js\b|node\.?js|sql|postgres)/i.test(t))
+      return { key: 'tech_exp', value: String(yr), pickRxs: [/^3\s*(years?|yrs?)?$/i, /2[\s-]+3/i, /3[\s-]+5/i] };
+
     // ── Total experience (not tech-specific) ──
     if (/total.{0,20}(work\s+|professional\s+)?experience|years?.{0,10}of.{0,10}experience|how\s+many\s+years|experience\s+in\s+years/i.test(t)
         && !/with|in\s+(java|python|spring|aws|react|node|angular|kubernetes|sql|go|ruby|php|typescript)\b/i.test(t))
       return { key: 'experience', value: String(yr), pickRxs: [/^3\s*(years?|yrs?)?$/i, /2[\s-]+3/i, /3[\s-]+5/i, /2\+/i] };
-
-    // ── Tech-specific experience — Java / Spring / Python / JS (3 yrs honest) ──
-    if (/years?.{0,20}(exp(erience)?).{0,20}(java(?!script)|spring\b|spring\s*boot|python|javascript|js\b|node\.?js|sql|postgres)/i.test(t)
-        || /(java(?!script)|spring\b|spring\s*boot|python|javascript|js\b|node\.?js|sql|postgres).{0,20}years?.{0,20}(exp(erience)?)/i.test(t))
-      return { key: 'tech_exp', value: String(yr), pickRxs: [/^3\s*(years?|yrs?)?$/i, /2[\s-]+3/i, /3[\s-]+5/i] };
 
     // ── Current location / city ──
     if (/(current|present).{0,20}(city|location)|where.{0,20}(based|located|living)|residing\s+in/i.test(t)) {
@@ -436,7 +437,17 @@
     return /chatbot|chat[_-]?window|chat[_-]?body|ssrc[_-]?.*(receive|send)|bot[_-]?message|receive[_-]?message/.test(src);
   }
 
+  // position:fixed elements have offsetParent===null even when visible — use rect check instead
+  function isVis(el) {
+    if (!el) return false;
+    const s = window.getComputedStyle(el);
+    if (s.display === 'none' || s.visibility === 'hidden') return false;
+    const r = el.getBoundingClientRect();
+    return r.width > 0 && r.height > 0 && r.bottom > 0 && r.top < window.innerHeight;
+  }
+
   const MODAL_SELS = [
+    '[class*="chatbot_Drawer"]',                                   // Naukri's real chatbot drawer
     '.chatbot_modal', '[class*="chatbot_modal"]', '[class*="chatbotModal"]',
     '[class*="apply-modal"]', '[class*="applyModal"]', '[class*="apply_modal"]',
     '[class*="easyApply"]',   '[class*="easy-apply"]',
@@ -450,12 +461,12 @@
     for (const sel of MODAL_SELS) {
       try {
         const el = document.querySelector(sel);
-        if (el?.offsetParent) return el;
+        if (isVis(el)) return el;
       } catch {}
     }
     // Fallback: any visible dialog/overlay mentioning CTC or notice
     for (const d of document.querySelectorAll('[role="dialog"],[class*="modal"],[class*="overlay"],[class*="popup"]')) {
-      if (!d.offsetParent) continue;
+      if (!isVis(d)) continue;
       if (/current\s*ctc|expected\s*ctc|notice\s*period|quick\s*apply|easy\s*apply/i.test(d.textContent)) return d;
     }
     return null;
