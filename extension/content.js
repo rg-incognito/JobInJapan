@@ -832,7 +832,7 @@
     document.documentElement.setAttribute("data-jobfill", JSON.stringify({ filled: rep.filled.length, needs: rep.needs.length, consent: rep.consent.length, acked: rep.acked.length }));
     renderPanel(rep);
     send({ type: "report", payload: { job_id: S.ctx.job && S.ctx.job.job_id, url: location.href, report: rep } }).catch(() => {});
-    if (S.ctx.autosubmit) scheduleAutoSubmit();
+    scheduleAutoSubmit();
   }
 
   // ---------------------------------------------------------------- auto-submit (Rohit, 2026-11-02)
@@ -855,10 +855,9 @@
       const rep = S.report;
       if (!rep || S.running || S.autoSubmitted || !alive()) return;
       const blockers = rep.needs.length + rep.consent.filter((c) => c.required).length;
-      const hasResume = rep.filled.some((f) => f.kind === "file");
       const btn = submitButton();
-      if (blockers || !hasResume || !btn || visibleCaptcha() || rep.filled.length < 4) {
-        console.info("[JobFill] auto-submit waiting", { needs: rep.needs.length, consent: rep.consent.length, hasResume, btn: !!btn });
+      if (blockers || !btn || visibleCaptcha() || rep.filled.length < 3) {
+        console.info("[JobFill] auto-submit waiting", { needs: rep.needs.length, consent: rep.consent.length, btn: !!btn });
         return;
       }
       S.autoSubmitted = true;

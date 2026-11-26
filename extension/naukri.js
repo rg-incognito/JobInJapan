@@ -12,7 +12,7 @@
   const S = {
     ctx: null, running: false, panelRoot: null, panelShadow: null,
     filled: 0, needs: 0, lastQ: '', answeredQs: new Set(),
-    chatObs: null, modalEl: null, pageTimer: null,
+    chatObs: null, modalEl: null, pageTimer: null, submitted: false,
   };
 
   const sleep  = ms => new Promise(r => setTimeout(r, ms));
@@ -361,7 +361,23 @@
     const hasInp   = !!(inp?.offsetParent && !inp.disabled && !inp.readOnly);
     const hasChips = chips.length > 0;
 
-    if (!hasInp && !hasChips) { S.running = false; return; }   // bot thinking / transitioning
+    if (!hasInp && !hasChips) {
+      // No more Q&A — if 0 needs, look for the final submit button
+      if (!S.submitted && S.needs === 0 && S.filled > 0) {
+        const finalBtn = [...modal.querySelectorAll('button,[role=button]')]
+          .filter(b => isVis(b))
+          .find(b => /submit\s*(application)?|^apply(\s+now)?$|confirm\s*application/i.test(b.textContent.trim()));
+        if (finalBtn) {
+          S.submitted = true;
+          await sleep(800);
+          status('Submitting application…');
+          finalBtn.click();
+          await sleep(1500);
+          status('Application submitted ✓');
+        }
+      }
+      S.running = false; return;
+    }   // bot thinking / transitioning
     if (hasInp && inp.value.trim()) { S.running = false; return; } // already typed
     try {
       const qText = getLastBotMessage(modal);

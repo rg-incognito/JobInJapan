@@ -6,7 +6,7 @@
    "ack": true,
    "_note": "Rohit (2026-11-02): tick plain acknowledgement boxes for him. Exclusions in 'not' stay for him to decide.",
    "q": "acknowledg|^confirm$|\\bi (have )?(read|reviewed|opened)|\\bi confirm (that )?(i|that i) (have )?(read|reviewed|understood)|confirm that you have( read)?|privacy (notice|policy|statement)|candidate (data|privacy)|i (consent|agree) to .{0,80}(collect|process|stor|handl|use).{0,60}(my|personal|application|candidate) (data|information|details)|(consent|agree) to .{0,40}processing of my (personal )?(data|information)",
-   "not": "marketing|newsletter|talent (pool|community|network)|future (job |role |career )?(opportunit|role|position|vacanc)|other (roles|positions|vacancies|opportunit)|whatsapp|\\bsms\\b|text messages?|opt[- ]?in|record|brighthire|metaview|demographic|diversity|equal opportunit|ethnic|gender|disabilit|sexual|sensitive|special categor|criminal|convict|background check|signature|sign here|truthful|true and (complete|accurate)|accurate and complete|\\bdeclare|attest|retain .{0,30}(longer|for (up to )?\\d)|share .{0,40}with (third|partner|other)",
+   "not": "marketing|newsletter|talent (pool|community|network)|future (job |role |career )?(opportunit|role|position|vacanc)|other (roles|positions|vacancies|opportunit)|demographic|diversity|equal opportunit|ethnic|gender|disabilit|sexual|sensitive|special categor|criminal|convict|background check|signature|sign here|truthful|true and (complete|accurate)|accurate and complete|\\bdeclare|attest|retain .{0,30}(longer|for (up to )?\\d)|share .{0,40}with (third|partner|other)",
    "a": "Yes",
    "pick": "^(yes|i (have|confirm|acknowledge|agree|accept|consent|understand)|i.?ve read|confirm|acknowledg|agree|accept|read)||\\bread it\\b|\\bi.?ve read\\b|\\bhave read\\b"
   },
@@ -14,7 +14,7 @@
    "id": "certify",
    "ack": true,
    "q": "true,? (and )?(complete|accurate|correct)|(complete|accurate),? and (true|correct|complete)|truthful|i certify|certify that|i declare|i attest|to the best of my knowledge|information (provided|given|submitted) (is|was) (true|accurate|correct)",
-   "not": "marketing|newsletter|talent (pool|community|network)|future (opportunit|roles|positions|vacanc)|other (roles|positions|opportunit)|whatsapp|\\bsms\\b|text messag|opt.?in|record|brighthire|metaview|criminal|convict|offen[cs]e|background check|share .{0,40}third part",
+   "not": "marketing|newsletter|talent (pool|community|network)|future (opportunit|roles|positions|vacanc)|other (roles|positions|opportunit)|criminal|convict|offen[cs]e|background check|share .{0,40}third part",
    "a": "Yes",
    "pick": "^(yes|i (certify|confirm|agree|declare|attest|accept|acknowledge))||\\b(certify|confirm|agree|true)\\b",
    "_note": "Rohit asked (2026-11-02) that declarations that his answers are true and accurate be ticked for him. Only his real profile data is ever entered."
@@ -24,7 +24,7 @@
    "ack": true,
    "required_only": true,
    "q": "consent|privacy|personal data|data protection|gdpr|processing of (my|your)|i accept|candidate data",
-   "not": "marketing|newsletter|whatsapp|\\bsms\\b|text messag|record|brighthire|metaview|criminal|convict|background check",
+   "not": "marketing|newsletter|criminal|convict|background check",
    "a": "Yes",
    "pick": "^(yes|i (accept|agree|consent|confirm))||\\baccept\\b||\\bagree\\b||\\bconsent\\b",
    "_note": "Only when the box is REQUIRED (the form cannot be submitted without it): the standard application data-processing consent. Rohit approved autonomous submission 2026-11-02. Optional marketing/talent-pool boxes stay unticked. Also covers a required consent to process the EEO answers Rohit chose to give (2026-11-02)."
@@ -38,19 +38,17 @@
    "_note": "Required yes/no 'email me about future openings' questions: answer No (marketing stays off)."
   },
   {
-   "id": "recording_optout",
+   "id": "recording_consent",
    "ack": true,
-   "required_only": true,
-   "no_checkbox": true,
    "q": "record|metaview|brighthire|transcri",
-   "a": "No",
-   "pick": "^no\\b||opt.?out||decline||do not||don.?t",
-   "_note": "A REQUIRED yes/no about recording interviews is answered No (opt out). A checkbox is never ticked by this rule."
+   "a": "Yes",
+   "pick": "^(yes|i (consent|agree|accept|allow|permit|ok)|allow|consent|agree|ok(ay)?)||\\b(yes|ok|agree|consent|allow)\\b",
+   "_note": "Rohit (2026-11-26): OK to tick interview-recording consent boxes and answer recording yes/no as Yes."
   },
   {
    "id": "consent",
    "never": true,
-   "q": "acknowledg|\\bi (have )?(read|agree|accept|acknowledge|consent|certify|confirm|understand|authori[sz]e|declare|attest)|privacy (notice|policy|statement)|terms (of|and)|consent|gdpr|data (protection|processing|transfer|retention|privacy)|whatsapp|\\bsms\\b|text messages?|opt[- ]?in|record(ed|ing)? (the |my |of |this )?(interview|call)|brighthire|truthful|true and (complete|accurate)|accurate and complete|retain my (data|information)|future (job )?opportunit|talent (pool|community|network)|marketing|newsletter|signature|sign here"
+   "q": "acknowledg|\\bi (have )?(read|agree|accept|acknowledge|consent|certify|confirm|understand|authori[sz]e|declare|attest)|privacy (notice|policy|statement)|terms (of|and)|consent|gdpr|data (protection|processing|transfer|retention|privacy)|truthful|true and (complete|accurate)|accurate and complete|retain my (data|information)|future (job )?opportunit|talent (pool|community|network)|marketing|newsletter|signature|sign here"
   },
   {
    "id": "legal",
